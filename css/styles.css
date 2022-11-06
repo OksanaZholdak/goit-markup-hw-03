@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --accent-color: #ececec;
   --primary-text-color: #212121;
@@ -53,6 +59,7 @@ ul {
 
 .header {
   background-color: var(--accent-color);
+
 }
 
 .logo {
@@ -62,6 +69,11 @@ ul {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #000000;
+  position: absolute;
+  left: 215px;
+  top: 24px;
+  width: 145px;
+  height: 31px;
 }
 
 .accent {
@@ -73,6 +85,11 @@ ul {
 }
 
 .studio-link {
+  position: absolute;
+  left: 453px;
+  top: 32px;
+  width: 45px;
+  height: 16px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -90,6 +107,11 @@ ul {
 }
 
 .nav-link {
+  position: absolute;
+  left: 548px;
+  top: 32px;
+  width: 72px;
+  height: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
@@ -106,6 +128,11 @@ ul {
 }
 
 .contacts-link {
+  position: absolute;
+  left: 670px;
+  top: 32px;
+  width: 64px;
+  height: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
@@ -122,6 +149,11 @@ ul {
 }
 
 .contact-link {
+  position: absolute;
+  left: 1078px;
+  top: 32px;
+  width: 135px;
+  height: 16px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -136,11 +168,24 @@ ul {
 }
 
 .phone-link {
+  position: absolute;
+  left: 1263px;
+  top: 32px;
+  width: 122px;
+  height: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.decisions {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 }
 
 .phone-link:hover {
@@ -166,6 +211,11 @@ ul {
 }
 
 .button {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
   font-weight: 700;
   line-height: 1.8;
   color: var(--accent-color);
@@ -179,10 +229,12 @@ ul {
 }
 
 .container {
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
+  width: 1600px;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .visually-hidden {
@@ -196,6 +248,14 @@ margin: 0 auto;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.benefits {
+  position: absolute;
+  width: 1170px;
+  height: 98px;
+  left: 215px;
+  top: 774px;
 }
 
 .benefits-title {
