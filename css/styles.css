@@ -98,6 +98,7 @@ body {
   line-height: 1.16;
 
   color: var(--primary-text-color);
+  padding-left: 156px;
 }
 
 .accent {
@@ -116,6 +117,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  padding-left: 76px;
 }
 
 .studio-link:hover {
@@ -133,6 +135,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  padding-left: 40px;
 }
 
 .nav-link:hover {
@@ -150,6 +153,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  padding-left: 40px;
 }
 
 .contacts-link:hover {
@@ -168,7 +172,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--secondary-text-color);
+
+  padding-left: 332px;
 }
 
 .contact-link:hover {
@@ -185,6 +192,8 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
+
+  padding-left: 40px;
 }
 
 .phone-link:hover {
@@ -209,8 +218,6 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
-
-  padding-bottom: 48px;
 }
 
 .button {
@@ -220,9 +227,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-  color: var(--primary-text-color);
-  background-color: var(--accent-color);
-  
+  color: var(--accent-color);
+  background-color: var(--thirdly-text-color);
+
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
 }
 
 .section-benefits {
@@ -239,6 +250,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  margin-left: 24px;
 }
 
 .benefits-text {
@@ -247,6 +259,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
+  margin-left: 24px;
 }
 
 .activity-section {
@@ -264,6 +277,10 @@ body {
   display: flex;
 }
 
+.icon-list {
+  margin-left: 24px;
+}
+
 .team {
   font-style: normal;
   font-size: 16px;
@@ -278,6 +295,8 @@ body {
   line-height: 1.11;
 
   color: var(--primary-text-color);
+
+  text-align: center;
 }
 
 .team-workers {
@@ -285,6 +304,7 @@ body {
 }
 
 .team-list {
+  margin-left: 24px;
 }
 
 .team-name {
@@ -316,6 +336,10 @@ body {
   display: flex;
 }
 
+.button-portfolio {
+  margin-left: 24px;
+}
+
 .active:hover {
   background-color: var(--thirdly-text-color);
   color: var(--accent-color);
@@ -340,6 +364,8 @@ body {
   line-height: 1.17;
 
   color: var(--accent-color);
+
+  padding-bottom: 16px;
 }
 
 .logo-footer {
