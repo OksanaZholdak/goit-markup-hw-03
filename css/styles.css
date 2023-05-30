@@ -85,13 +85,15 @@ body {
   display: flex;
   align-items: center;
   background-color: var(--accent-color);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .head {
   display: flex;
   align-items: center;
   width: 1440px;
-height: 72px;
+  height: 72px;
+  gap: 40px;
 }
 
 .header-nav {
@@ -109,6 +111,7 @@ height: 72px;
   line-height: 1.16;
 
   color: var(--primary-text-color);
+  margin-right: 76px;
 }
 
 .accent {
@@ -120,6 +123,7 @@ height: 72px;
 .header-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .studio-link {
@@ -132,7 +136,6 @@ height: 72px;
 
   margin-right: 40px;
   margin-left: 76px;
- 
 }
 
 .studio-link:hover {
@@ -169,7 +172,7 @@ height: 72px;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
-
+  margin-right: 332px;
 }
 
 .contacts-link:hover {
@@ -183,7 +186,7 @@ height: 72px;
 .navigation {
   display: flex;
   align-items: center;
-
+  gap: 40px;
   margin-left: auto;
 }
 
@@ -210,7 +213,6 @@ height: 72px;
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
-
 }
 
 .phone-link:hover {
@@ -227,6 +229,9 @@ height: 72px;
   background-color: var(--primary-text-color);
   display: flex;
   justify-content: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  min-width: 496px;
 }
 
 .main-father {
@@ -235,11 +240,10 @@ height: 72px;
   align-items: center;
   flex-direction: column;
   width: 1440px;
-height: 600px;
+  height: 600px;
 }
 
 .hero-title {
-
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -250,7 +254,6 @@ height: 600px;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
-
 }
 
 .button {
@@ -270,19 +273,23 @@ height: 600px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  display: flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  bottom: none;
 }
 
 .section-benefits {
   display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-container {
   width: 1128px;
-height: 104px;
-margin-top: 120px;
-margin-bottom: 120px;
-
+  height: 104px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .benefits-list {
@@ -317,6 +324,7 @@ margin-bottom: 120px;
 .our-works {
   margin-bottom: 120px;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -342,7 +350,7 @@ margin-bottom: 120px;
 }
 
 .team-container {
-align-items: center;
+  align-items: center;
   width: 1440px;
 
   height: 732px;
@@ -363,7 +371,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   width: 1440px;
-height: 732px;
+  height: 732px;
 }
 
 .team-list {
@@ -387,31 +395,43 @@ height: 732px;
 
 /* MAIN PORTFOLIO */
 
+.sections-projects {
+  padding: 96px 0 120px 0;
+}
+
 .projects-container {
   display: flex;
   align-items: center;
 }
-.section-title {
-  display: none;
-}
+
+
 
 .button-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .img-list {
-display: 
-
-
+  display: flex;
 }
 
 .button-portfolio {
   margin-left: 24px;
+
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+
 }
 
 .active:hover {
   background-color: var(--thirdly-text-color);
   color: var(--accent-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .active:focus {
@@ -422,6 +442,8 @@ display:
 /* FOOTER */
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--primary-text-color);
 }
 
@@ -438,6 +460,8 @@ display:
   color: var(--accent-color);
 
   padding-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer {
