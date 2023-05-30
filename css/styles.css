@@ -86,6 +86,9 @@ body {
   align-items: center;
   background-color: var(--accent-color);
   border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .head {
@@ -254,6 +257,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 48px;
+  min-width: 496px;
 }
 
 .button {
@@ -276,7 +280,7 @@ body {
   display: block;
   min-width: 169px;
   height: 56px;
-  bottom: none;
+  border: none;
 }
 
 .section-benefits {
@@ -295,6 +299,7 @@ body {
 .benefits-list {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .benefits-title {
@@ -319,6 +324,7 @@ body {
 .activity-section {
   display: flex;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .our-works {
@@ -331,10 +337,16 @@ body {
   line-height: 1.11;
 
   color: var(--primary-text-color);
+align-items: center;
+display: flex;
+justify-content: center;
+  margin-bottom: 72px;
+
 }
 
 .technologies {
   display: flex;
+  gap: 24px;
 }
 
 .icon-list {
