@@ -450,11 +450,18 @@ body {
 
 .sections-projects {
   padding: 96px 0 120px 0;
+  display: flex;
+  margin: 0 auto;
 }
 
 .projects-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .button-list {
@@ -490,19 +497,18 @@ body {
 /* section - 2 portfolio */
 
 
-
 .img-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-
 }
 
 .icon-list {
-
   width: calc((100%-48px)/3);
+  flex-wrap: wrap;
 }
+
 .portfolio-link {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
