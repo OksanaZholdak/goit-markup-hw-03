@@ -327,7 +327,6 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
-
 }
 
 /* section - 3 */
@@ -375,10 +374,6 @@ body {
   padding-bottom: 120px;
 }
 
-.team-container {
-
-}
-
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -404,11 +399,10 @@ body {
 }
 
 .team-list {
-
-   border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
-  
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
