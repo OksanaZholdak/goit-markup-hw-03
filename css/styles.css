@@ -46,21 +46,21 @@ img {
 
 .visually-hidden {
   position: absolute;
-  white-space: nowrap;
   width: 1px;
   height: 1px;
-  overflow: hidden;
+  margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  overflow: hidden;
 }
 
 .container {
   width: 1158px;
-  padding-right: 15px;
   padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -91,14 +91,6 @@ body {
 .head {
   display: flex;
   align-items: center;
-  width: 1158px;
-  height: 72px;
-  gap: 40px;
-  margin: 0 auto;
-  padding-top: 24px;
-  padding-right: 15px;
-  padding-bottom: 24px;
-  padding-left: 15px;
 }
 
 .header-nav {
@@ -114,15 +106,16 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-
   color: var(--primary-text-color);
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .accent {
   display: flex;
   align-items: center;
   color: var(--thirdly-text-color);
+  padding: 24px 0;
 }
 
 .header-list {
@@ -141,8 +134,7 @@ body {
 
   margin-right: 40px;
   margin-left: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .studio-link:hover {
@@ -162,8 +154,7 @@ body {
   color: var(--primary-text-color);
 
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .nav-link:hover {
@@ -181,9 +172,8 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
-  margin-right: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block;
+  padding: 24px 0;
 }
 
 .contacts-link:hover {
@@ -208,6 +198,7 @@ body {
 
   color: var(--secondary-text-color);
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .contact-link:hover {
@@ -224,6 +215,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
+  padding: 24px 0;
 }
 
 .phone-link:hover {
@@ -418,7 +410,7 @@ body {
 .team-list {
   margin-left: 24px;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100%-72px)/4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .team-name {
@@ -496,7 +488,6 @@ body {
 
 /* section - 2 portfolio */
 
-
 .img-list {
   display: flex;
   flex-wrap: wrap;
@@ -505,7 +496,7 @@ body {
 }
 
 .icon-list {
-  width: calc((100%-48px)/3);
+  width: calc((100%-48px) / 3);
   flex-wrap: wrap;
 }
 
