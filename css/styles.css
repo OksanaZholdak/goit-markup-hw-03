@@ -482,23 +482,6 @@ body {
   border-top: none;
 }
 
-.benefits-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  margin-bottom: 8px;
-}
-
-.benefits-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: var(--secondary-text-color);
-}
-
 /* FOOTER */
 
 .footer {
