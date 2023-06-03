@@ -225,7 +225,6 @@ body {
 .main-section {
   background-color: var(--primary-text-color);
 
-
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -253,7 +252,7 @@ body {
 
   color: var(--accent-color);
   background-color: var(--thirdly-text-color);
-  
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding-top: 16px;
@@ -263,7 +262,7 @@ body {
   display: block;
   border: none;
   margin: 0 auto;
- 
+  min-width: 169px;
 }
 
 /* section - 2 */
@@ -407,7 +406,7 @@ body {
 }
 
 .button-portfolio {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   padding-top: 12px;
   padding-right: 24px;
   padding-bottom: 12px;
